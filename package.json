@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "pkg": {
+    "scripts": [],
+    "assets": "resource/**/*",
+    "targets": [
+      "node14-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "bin": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-xlsx": "^0.17.2"
+  }
+}
